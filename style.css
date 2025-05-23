@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .scene {
+    position: relative;
+    width: 600px;
+    height: 400px;
+  }
+  
+  .character {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 120px;
+  }
+  
+  .heart {
+    position: absolute;
+    font-size: 18px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.8s ease;
+  }
+  
